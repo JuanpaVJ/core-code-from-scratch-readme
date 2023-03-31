@@ -33,6 +33,7 @@ Challenge 3 Geometry
 
 Pyramid:
 1st determine the base area of the pyramid 
+
 2nd to determine the base area of the pyramid we would need to multiply length by width
 3rd determine the height of the pyramid
 4th multiply the base area by the height and divide the result by 3
@@ -60,4 +61,17 @@ Select the number ---> Divide the number for 2 ---> Check if the reminder is 0 -
                                                                                 |
                                                                                 |
                                                                                 --> If answer is no ---> Number is odd
+                                                                               
+***********************************************************************************************************************************************************************
+Challenge 2 How old are you
+
+1st select the user
+2nd ask them when they where born
+3rd Subtract the current year with the user's birth date
+4th Take in count that the age can vary depending on the birth month
+5th if the current month and date is not the user's birthday, you have to subtract 1 to the result
+For example: I was born on October 20, 1999, and the current date is March 2023, if we subtract 2023 - 1999 = 24, since my the birthday of the person has not arrived yet, the user has 23 years.
+
+***********************************************************************************************************************************************************************
+
           
