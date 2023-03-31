@@ -17,7 +17,7 @@ Challenge 1 Pizza of pepperoni and cheesse
 12th get a plate or something to eat the pizza
 13th eat the pizza
 
-*************************************************************************************************************************************************************************
+***********************************************************************************************************************************************************************
 Challenge 2 Hot N Cold
 
 1st we would need the temperature in Celsius that we want to convert
@@ -28,7 +28,7 @@ Challenge 2 Hot N Cold
 6th divide the result of the previous step by 1.8
 7th The result is the temperature back in Fahrenheit
 
-*************************************************************************************************************************************************************************
+***********************************************************************************************************************************************************************
 Challenge 3 Geometry
 
 Pyramid:
@@ -49,3 +49,15 @@ Sphere:
 3rd multiply the radius by itself 3 times
 4th multiply the result of the previous step by 4/3 and pi (3.1416)
 5th the result is the volume of the sphere
+
+***********************************************************************************************************************************************************************
+Week challenges Thursday
+
+Challenge 1 Numbers
+
+Select the number ---> Divide the number for 2 ---> Check if the reminder is 0 ---> If answer is yes ---> Number is even
+                                                                                |
+                                                                                |
+                                                                                |
+                                                                                --> If answer is no ---> Number is odd
+          
