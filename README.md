@@ -1,4 +1,6 @@
 # core-code-from-scratch-readme
+Week challenges Wednesday:
+
 Challenge 1 Pizza of pepperoni and cheesse
 
 1st make a list of the ingredients needed (water, flour, yeast, salt, sugar and olive oil for the dough, pepperonnni and cheesse of preference)
@@ -27,3 +29,23 @@ Challenge 2 Hot N Cold
 7th The result is the temperature back in Fahrenheit
 
 *************************************************************************************************************************************************************************
+Challenge 3 Geometry
+
+Pyramid:
+1st determine the base area of the pyramid 
+2nd to determine the base area of the pyramid we would need to multiply length by width
+3rd determine the height of the pyramid
+4th multiply the base area by the height and divide the result by 3
+5th the volume is the result of the last step
+
+Cube: 
+1st determine the length of one side of the cube
+2nd Multiply the length by itself 3 times
+3rd the result of the previous step is the area of the cube
+
+Sphere:
+1st we need to know the distance from the center of the sphere to any point on the surface, which is the radius
+2nd get the value of pi for the next steps
+3rd multiply the radius by itself 3 times
+4th multiply the result of the previous step by 4/3 and pi (3.1416)
+5th the result is the volume of the sphere
