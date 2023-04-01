@@ -74,5 +74,6 @@ Challenge 2 How old are you
 For example: I was born on October 20, 1999, and the current date is March 2023, if we subtract 2023 - 1999 = 24, since my the birthday of the person has not arrived yet, the user has 23 years.
 
 ***********************************************************************************************************************************************************************
-
+Challenge 3 Treasures
+The tresure is on the chest A and C, the message shows that at least one has the tresure, which can means that 2 can have the treasure. Since all messages are lies, the chest B does not has the treasure because the chest A shows the message: the middle chest has the treasure. The chest B shows the message that all of these chests have treasure, which is a lie, it means that at least 1 can have the treasure. Finally the chest C message shows: Only one of these chests has treasure, which is also a lie, thats why there are 2 chests with treasures and the only one that is discarded directly is the B due to the message from chest A.
           
