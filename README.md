@@ -56,20 +56,21 @@ Week challenges Thursday
 
 Challenge 1 Numbers
 
-Select the number ---> Divide the number for 2 ---> Check if the reminder is 0 ---> If answer is yes ---> Number is even
-                                                                                |
-                                                                                |
-                                                                                |
-                                                                                --> If answer is no ---> Number is odd
+https://lucid.app/lucidchart/6bb54660-3114-4960-a91d-394f9f101e76/edit?viewport_loc=-278%2C35%2C2560%2C1308%2C0_0&invitationId=inv_979b6c2a-7c5a-48e0-823b-b874b62d28ff
+
+1st Select the number
+2nd check if the number can be divided by 2
+3rd if the number can be divided by 2: the number is even, if the number can't be divided by 2: the number is odd
+4th End
                                                                                
 ***********************************************************************************************************************************************************************
 Challenge 2 How old are you
 
-1st select the user
-2nd ask them when they where born
+1st Select the user
+2nd Ask them when they where born
 3rd Subtract the current year with the user's birth date
 4th Take in count that the age can vary depending on the birth month
-5th if the current month and date is not the user's birthday, you have to subtract 1 to the result
+5th If the current month and date is not the user's birthday, you have to subtract 1 to the result
 For example: I was born on October 20, 1999, and the current date is March 2023, if we subtract 2023 - 1999 = 24, since my the birthday of the person has not arrived yet, the user has 23 years.
 
 ***********************************************************************************************************************************************************************
