@@ -85,8 +85,26 @@ The tresure is on the chest A and C, the message shows that at least one has the
 Week 2 challenges:
 ***********************************************************************************************************************************************************************
 
+Challenge 1
 Monday: Logic problem
 
 5 students, the teacher knows that only those who studied would be telling the truth and those who didn't would be lying. 
 
 If Alice would be saying the truth, it would be contradictory because Alice is saying that nobody sturied. Bob states that 1 person studied, this would be the only possible and logical solution, because no other person could be telling the truth due to the fact that there cannot be more than 1 statement at the same time being true.
+
+***********************************************************************************************************************************************************************
+Challenge 2
+Monday: Which come first, cereal or milk?
+
+1st: Select the type of cereal you want, if you don't have one in your house, you must go and buy one.
+2nd: get the bowl ready and the spoon
+3rd: get the milk
+4th: get the cereal
+5th: open the cereal
+6th: serve the cereal on the plate
+7th: put milk on the bowl with cereal
+8th: enjoy the cereal
+
+https://lucid.app/lucidchart/c099e72b-f8ae-439b-8470-6712c12cd48a/edit?viewport_loc=106%2C1%2C1707%2C872%2C0_0&invitationId=inv_a3f72e8d-8e02-4965-91d5-0fdb85385f8c
+
+***********************************************************************************************************************************************************************
