@@ -111,7 +111,7 @@ https://lucid.app/lucidchart/c099e72b-f8ae-439b-8470-6712c12cd48a/edit?viewport_
 Challenge 1
 Tuesday: print name and age
 
-Algoritmo sin_titulo
+Algoritmo name_age
 	
 	name = "My name is Juan Pablo"
 	age = "I am 23 years old"
