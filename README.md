@@ -1,4 +1,8 @@
 # core-code-from-scratch-readme
+***********************************************************************************************************************************************************************
+Week 1 challenges
+***********************************************************************************************************************************************************************
+
 Week challenges Wednesday:
 
 Challenge 1 Pizza of pepperoni and cheesse
@@ -77,3 +81,12 @@ For example: I was born on October 20, 1999, and the current date is March 2023,
 Challenge 3 Treasures
 The tresure is on the chest A and C, the message shows that at least one has the tresure, which can means that 2 can have the treasure. Since all messages are lies, the chest B does not has the treasure because the chest A shows the message: the middle chest has the treasure. The chest B shows the message that all of these chests have treasure, which is a lie, it means that at least 1 can have the treasure. Finally the chest C message shows: Only one of these chests has treasure, which is also a lie, thats why there are 2 chests with treasures and the only one that is discarded directly is the B due to the message from chest A.
           
+***********************************************************************************************************************************************************************
+Week 2 challenges:
+***********************************************************************************************************************************************************************
+
+Monday: Logic problem
+
+5 students, the teacher knows that only those who studied would be telling the truth and those who didn't would be lying. 
+
+If Alice would be saying the truth, it would be contradictory because Alice is saying that nobody sturied. Bob states that 1 person studied, this would be the only possible and logical solution, because no other person could be telling the truth due to the fact that there cannot be more than 1 statement at the same time being true.
