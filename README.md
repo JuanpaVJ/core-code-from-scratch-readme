@@ -108,3 +108,23 @@ Monday: Which come first, cereal or milk?
 https://lucid.app/lucidchart/c099e72b-f8ae-439b-8470-6712c12cd48a/edit?viewport_loc=106%2C1%2C1707%2C872%2C0_0&invitationId=inv_a3f72e8d-8e02-4965-91d5-0fdb85385f8c
 
 ***********************************************************************************************************************************************************************
+Challenge 1
+Tuesday: print name and age
+
+Algoritmo sin_titulo
+	
+	name = "My name is Juan Pablo"
+	age = "I am 23 years old"
+	
+	Escribir name
+	Escribir age
+	
+FinAlgoritmo
+
+Output: 
+
+
+*** Ejecución Iniciada. ***
+My name is Juan Pablo
+I am 23 years old
+*** Ejecución Finalizada. ***
