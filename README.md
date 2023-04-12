@@ -128,3 +128,21 @@ Output:
 My name is Juan Pablo
 I am 23 years old
 *** Ejecución Finalizada. ***
+
+***********************************************************************************************************************************************************************
+Challenge 1
+Wednesday: even or odd
+
+Algoritmo even_odd
+	
+	Leer first_number
+	Leer second_number
+	
+	result = first_number % second_number
+	Si result = 0 Entonces
+		Escribir "The number is even"
+	SiNo
+		Escribir "The number is odd"
+	Fin Si
+	Escribir "The result is " result
+FinAlgoritmo
