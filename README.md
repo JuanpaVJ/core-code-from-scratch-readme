@@ -178,4 +178,26 @@ Address: Gt
 *** Ejecución Finalizada. ***
 
 ***********************************************************************************************************************************************************************
+Challenge 1
+Thursday: Truth tables
+
+T & T = T Correct
+T & F = F Correct
+F & T = T Incorrect
+F & F = F Correct
+T | T = T Correct
+T | F = F Incorrect 
+F | T = T Correct
+F | F = F Correct
+~T = T Incorrect
+~F = T Correct
+(T & F) | (~F) = T Correct
+(T | F ) & (F | F) = T Incorrect
+~((T | F ) & (F | F)) & F = T Correct
+~((T | F ) & (F | F)) & T = F Correct
+
+***********************************************************************************************************************************************************************
+Challenge 2
+Thursday: Boolean results
+
 
