@@ -131,7 +131,7 @@ I am 23 years old
 
 ***********************************************************************************************************************************************************************
 Challenge 1
-Wednesday: even or odd
+Wednesday: even or odd Mod
 
 Algoritmo even_odd
 	
@@ -146,3 +146,36 @@ Algoritmo even_odd
 	Fin Si
 	Escribir "The result is " result
 FinAlgoritmo
+
+***********************************************************************************************************************************************************************
+Challenge 2 
+Wednesday: Register form
+
+Algoritmo sin_titulo
+	Escribir "First name: "
+	Leer firstName
+	Escribir "Last name: "
+	Leer lastName
+	Escribir "Age: "
+	Leer age
+	Escribir "Email: "
+	Leer email
+	Escribir "Address: "
+	Leer address
+	Escribir "First name: " firstName
+	Escribir "Last name: " lastName
+	Escribir "Age: " age
+	Escribir "Email: " email
+	Escribir "Address: " address
+FinAlgoritmo
+
+Output: > Gt
+First name: Juan
+Last name: Pablo
+Age: 23
+Email: hola@hola.com
+Address: Gt
+*** Ejecución Finalizada. ***
+
+***********************************************************************************************************************************************************************
+
