@@ -218,5 +218,14 @@ FinAlgoritmo
 Challenge 3
 Thursday: Identify odd and even numbers
 
+Algoritmo even_odd_input
+	Escribir "Enter a number"
+	Leer num
+	Si num % 2 == 0 Entonces
+		Escribir num " is an even number." 
+	SiNo
+		Escribir num " is an odd number."
+	Fin Si
+FinAlgoritmo
 
 
