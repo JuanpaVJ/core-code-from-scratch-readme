@@ -199,5 +199,24 @@ F | F = F Correct
 ***********************************************************************************************************************************************************************
 Challenge 2
 Thursday: Boolean results
+Algoritmo boolean
+	a <- 5 == 3 
+	//Falso porque la expresión indica que 5 es igual a 3
+	b <- 4 <> 3
+	//Verdadero porque la expresión indica que 4 es diferente a 3
+	c <- 7 > 7
+	//Falso porque la epxresión está indicando que 7 es mayor que 7
+	d <- 4 < 4
+	//Falso porque la expresión está indicando que 4 es menor a 4
+	e <- 100 <= 90
+	//Falso porque la expresión está indicando quke 100 es menor o igual a 90 y no cumple ninguna de las condiciones
+	f <- 40 >= 40
+	//Verdadero porque la expresión indica que 40 es mayor O IGUAL a 40, se cumple la condición que es igual
+FinAlgoritmo
+
+***********************************************************************************************************************************************************************
+Challenge 3
+Thursday: Identify odd and even numbers
+
 
 
