@@ -228,4 +228,121 @@ Algoritmo even_odd_input
 	Fin Si
 FinAlgoritmo
 
+***********************************************************************************************************************************************************************
+
+Week 3 Challenges
+
+***********************************************************************************************************************************************************************
+
+Challenge 1
+Monday: Simple Calculator
+
+Algoritmo simple_calculator
+	Escribir "Escribe un número: "
+	Leer num1
+	Escribir "Escribe otro número: "
+	Leer num2
+	Escribir "Elije una operación entre +, -, / o *"
+	Leer operador
+	Segun operador Hacer
+		"+":
+			resultado = num1 + num2
+		"-":
+			resultado = num1 - num2
+		"*":
+			resultado = num1 * num2
+		"/":
+			resultado = num1 / num2
+	FinSegun
+	Escribir "El resultado es: " resultado
+
+***********************************************************************************************************************************************************************
+
+Challenge 2
+Monday: Special Number
+
+Algoritmo special_number
+	Escribir "Escribe un número"
+	Leer num
+	Si num == 100 Entonces
+		Escribir "This is a special number!"
+	SiNo
+		Si (num < 1000) & (num % 10 == 0)Entonces
+			Escribir "This number is almost special"
+		SiNo
+			Escribir "Just a regular number"
+		Fin Si
+	Fin Si
+FinAlgoritmo
+
+***********************************************************************************************************************************************************************
+
+Challenge 1 
+Tuesday: Simple calculator with switch
+
+Algoritmo calculator_switch
+	Escribir "Escribe un número: "
+	Leer num1
+	Escribir "Escribe otro número: "
+	Leer num2
+	Escribir "Elije una operación entre +, -, / o *"
+	Leer operador
+	Segun operador Hacer
+		"+":
+			resultado = num1 + num2
+		"-":
+			resultado = num1 - num2
+		"*":
+			resultado = num1 * num2
+		"/":
+			resultado = num1 / num2
+	FinSegun
+	Escribir "El resultado es: " resultado
+
+***********************************************************************************************************************************************************************
+
+Challenge 2
+Tuesday: Multi Option Program
+
+Algoritmo Multi_Option_Program
+	Escribir "Choose the option you want to execute: "
+	Escribir "1. Sum two numbers"
+	Escribir "2. Print the day of the week given the day number"
+	Escribir "3. Print the length of a given text (counting spaces)"
+	Leer selectedOption
+Segun selectedOption Hacer
+	"1":
+		Escribir "Write the first number:  "
+		Leer num1
+		Escribir "Write the second number: "
+		Leer num2
+		Escribir "The result is: " num1 + num2
+	"2":
+		Escribir "Select a number from 1 to 7, each of this numbers represent a day of the week"
+		Leer selectedNumber
+		Segun selectedNumber Hacer
+			"1":
+				Escribir "Monday"
+			"2":
+				Escribir "Tuesday"
+			"3":
+				Escribir "Wednesday"
+			"4":
+				Escribir "Thursday"
+			"5":
+				Escribir "Friday"
+			"6":
+				Escribir "Saturday"
+			"7":
+				Escribir "Sunday"
+		FinSegun
+	"3":
+		Escribir "Write a sentence"
+		Leer sentence
+		Escribir "The length of the sentence is: " Longitud(sentence)
+FinSegun
+FinAlgoritmo
+
+***********************************************************************************************************************************************************************
+
 
