@@ -114,9 +114,11 @@ Tuesday: print name and age
 Algoritmo name_age
 	
 	name = "My name is Juan Pablo"
+	
 	age = "I am 23 years old"
 	
 	Escribir name
+	
 	Escribir age
 	
 FinAlgoritmo
@@ -125,8 +127,11 @@ Output:
 
 
 *** Ejecución Iniciada. ***
+
 My name is Juan Pablo
+
 I am 23 years old
+
 *** Ejecución Finalizada. ***
 
 ***********************************************************************************************************************************************************************
@@ -136,15 +141,23 @@ Wednesday: even or odd Mod
 Algoritmo even_odd
 	
 	Leer first_number
+	
 	Leer second_number
 	
 	result = first_number % second_number
+	
 	Si result = 0 Entonces
+	
 		Escribir "The number is even"
+		
 	SiNo
+	
 		Escribir "The number is odd"
+		
 	Fin Si
+	
 	Escribir "The result is " result
+	
 FinAlgoritmo
 
 ***********************************************************************************************************************************************************************
@@ -152,66 +165,116 @@ Challenge 2
 Wednesday: Register form
 
 Algoritmo sin_titulo
+
 	Escribir "First name: "
+	
 	Leer firstName
+	
 	Escribir "Last name: "
+	
 	Leer lastName
+	
 	Escribir "Age: "
+	
 	Leer age
+	
 	Escribir "Email: "
+	
 	Leer email
+	
 	Escribir "Address: "
+	
 	Leer address
+	
 	Escribir "First name: " firstName
+	
 	Escribir "Last name: " lastName
+	
 	Escribir "Age: " age
+	
 	Escribir "Email: " email
+	
 	Escribir "Address: " address
+	
 FinAlgoritmo
 
 Output: > Gt
+
 First name: Juan
+
 Last name: Pablo
+
 Age: 23
+
 Email: hola@hola.com
+
 Address: Gt
+
 *** Ejecución Finalizada. ***
 
 ***********************************************************************************************************************************************************************
 Challenge 1
+
 Thursday: Truth tables
 
 T & T = T Correct
+
 T & F = F Correct
+
 F & T = T Incorrect
+
 F & F = F Correct
+
 T | T = T Correct
+
 T | F = F Incorrect 
+
 F | T = T Correct
+
 F | F = F Correct
+
 ~T = T Incorrect
+
 ~F = T Correct
+
 (T & F) | (~F) = T Correct
+
 (T | F ) & (F | F) = T Incorrect
+
 ~((T | F ) & (F | F)) & F = T Correct
+
 ~((T | F ) & (F | F)) & T = F Correct
 
 ***********************************************************************************************************************************************************************
 Challenge 2
 Thursday: Boolean results
+
 Algoritmo boolean
+
 	a <- 5 == 3 
+	
 	//Falso porque la expresión indica que 5 es igual a 3
+	
 	b <- 4 <> 3
+	
 	//Verdadero porque la expresión indica que 4 es diferente a 3
+	
 	c <- 7 > 7
+	
 	//Falso porque la epxresión está indicando que 7 es mayor que 7
+	
 	d <- 4 < 4
+	
 	//Falso porque la expresión está indicando que 4 es menor a 4
+	
 	e <- 100 <= 90
+	
 	//Falso porque la expresión está indicando quke 100 es menor o igual a 90 y no cumple ninguna de las condiciones
+	
 	f <- 40 >= 40
+	
 	//Verdadero porque la expresión indica que 40 es mayor O IGUAL a 40, se cumple la condición que es igual
+	
 FinAlgoritmo
 
 ***********************************************************************************************************************************************************************
@@ -219,13 +282,21 @@ Challenge 3
 Thursday: Identify odd and even numbers
 
 Algoritmo even_odd_input
+
 	Escribir "Enter a number"
+	
 	Leer num
+	
 	Si num % 2 == 0 Entonces
+	
 		Escribir num " is an even number." 
+		
 	SiNo
+	
 		Escribir num " is an odd number."
+		
 	Fin Si
+	
 FinAlgoritmo
 
 ***********************************************************************************************************************************************************************
@@ -238,22 +309,39 @@ Challenge 1
 Monday: Simple Calculator
 
 Algoritmo simple_calculator
+
 	Escribir "Escribe un número: "
+	
 	Leer num1
+	
 	Escribir "Escribe otro número: "
+	
 	Leer num2
+	
 	Escribir "Elije una operación entre +, -, / o *"
+	
 	Leer operador
+	
 	Segun operador Hacer
+	
 		"+":
+		
 			resultado = num1 + num2
+			
 		"-":
+		
 			resultado = num1 - num2
+			
 		"*":
+		
 			resultado = num1 * num2
+			
 		"/":
+		
 			resultado = num1 / num2
+			
 	FinSegun
+	
 	Escribir "El resultado es: " resultado
 
 ***********************************************************************************************************************************************************************
@@ -262,17 +350,29 @@ Challenge 2
 Monday: Special Number
 
 Algoritmo special_number
+
 	Escribir "Escribe un número"
+	
 	Leer num
+	
 	Si num == 100 Entonces
+	
 		Escribir "This is a special number!"
+		
 	SiNo
+	
 		Si (num < 1000) & (num % 10 == 0)Entonces
+		
 			Escribir "This number is almost special"
+			
 		SiNo
+		
 			Escribir "Just a regular number"
+			
 		Fin Si
+		
 	Fin Si
+	
 FinAlgoritmo
 
 ***********************************************************************************************************************************************************************
@@ -281,22 +381,39 @@ Challenge 1
 Tuesday: Simple calculator with switch
 
 Algoritmo calculator_switch
+
 	Escribir "Escribe un número: "
+	
 	Leer num1
+	
 	Escribir "Escribe otro número: "
+	
 	Leer num2
+	
 	Escribir "Elije una operación entre +, -, / o *"
+	
 	Leer operador
+	
 	Segun operador Hacer
+	
 		"+":
+		
 			resultado = num1 + num2
+			
 		"-":
+		
 			resultado = num1 - num2
+			
 		"*":
+		
 			resultado = num1 * num2
+			
 		"/":
+		
 			resultado = num1 / num2
+			
 	FinSegun
+	
 	Escribir "El resultado es: " resultado
 
 ***********************************************************************************************************************************************************************
@@ -305,42 +422,79 @@ Challenge 2
 Tuesday: Multi Option Program
 
 Algoritmo Multi_Option_Program
+
 	Escribir "Choose the option you want to execute: "
+	
 	Escribir "1. Sum two numbers"
+	
 	Escribir "2. Print the day of the week given the day number"
+	
 	Escribir "3. Print the length of a given text (counting spaces)"
+	
 	Leer selectedOption
+	
 Segun selectedOption Hacer
+
 	"1":
+	
 		Escribir "Write the first number:  "
+		
 		Leer num1
+		
 		Escribir "Write the second number: "
+		
 		Leer num2
+		
 		Escribir "The result is: " num1 + num2
+		
 	"2":
+	
 		Escribir "Select a number from 1 to 7, each of this numbers represent a day of the week"
+		
 		Leer selectedNumber
+		
 		Segun selectedNumber Hacer
+		
 			"1":
+			
 				Escribir "Monday"
+				
 			"2":
+			
 				Escribir "Tuesday"
+				
 			"3":
+			
 				Escribir "Wednesday"
+				
 			"4":
+			
 				Escribir "Thursday"
+				
 			"5":
+			
 				Escribir "Friday"
+				
 			"6":
+			
 				Escribir "Saturday"
+				
 			"7":
+			
 				Escribir "Sunday"
+				
 		FinSegun
+		
 	"3":
+	
 		Escribir "Write a sentence"
+		
 		Leer sentence
+		
 		Escribir "The length of the sentence is: " Longitud(sentence)
+		
 FinSegun
+
 FinAlgoritmo
 
 ***********************************************************************************************************************************************************************
