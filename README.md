@@ -641,3 +641,45 @@ Algoritmo Multiplication_Tables_for
 FinAlgoritmo
 
 ***********************************************************************************************************************************************************************
+
+Challenge 2 
+Thursday: Ascending and Descending Numbers
+
+Algoritmo ascending_descending_numbers
+	
+	Escribir "Write a number"
+	
+	Leer num
+	
+	Escribir "Select an option"
+	
+	Escribir "1. Write ascending numbers from 0 to " num
+	
+	Escribir "2. Write descending numbers from " num " to 0"
+	
+	Leer selectedOption
+	
+	Segun selectedOption Hacer
+		
+		"1":
+			
+			Para i = 0 Hasta num Con Paso 1 Hacer
+				
+				Escribir i
+				
+			FinPara
+			
+		"2":
+			
+			Para i = num Hasta 0 Con Paso -1 Hacer
+				
+				Escribir i
+				
+			FinPara
+		
+	FinSegun
+	
+FinAlgoritmo
+
+***********************************************************************************************************************************************************************
+
