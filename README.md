@@ -345,4 +345,28 @@ FinAlgoritmo
 
 ***********************************************************************************************************************************************************************
 
+Challenge 1
+Wednesday: Multiplication Tables
+
+Algoritmo multiplication_tables
+
+	Escribir "Select any number to print the multiplication table of it."
+	
+	Leer selectedNum
+	
+	i = 0
+	
+	Mientras i < 10 Hacer
+	
+		i = i + 1
+		
+		Escribir i " * " selectedNum "= " selectedNum * i
+		
+	FinMientras
+	
+FinAlgoritmo
+
+***********************************************************************************************************************************************************************
+
+
 
