@@ -522,5 +522,104 @@ FinAlgoritmo
 
 ***********************************************************************************************************************************************************************
 
+Challenge 2
+Wednesday: Simple calculator with do while
+
+Algoritmo calculator_DoWhile
+
+//It does not let me use | (or symbol) I wanted to add the option to write yes differently, for example: yes, y and also I wanted to
+//add a variant if the user writes something different than yes or no
+	
+	Repetir
+		
+		Escribir "Write the first number"
+		
+		Leer num1
+		
+		Escribir "Write the second number"
+		
+		Leer num2
+		
+		Escribir "Select the operator between +,-,*, or / "
+		
+		Leer operator
+		
+		Segun operator
+			
+			"+":
+				
+				Escribir "The result is: " num1 + num2
+				
+			"-":
+				
+				Escribir "The result is: " num1 - num2
+				
+			"*":
+				
+				Escribir "The result is: " num1 * num2
+				
+			"/":
+				
+				Escribir "The result is: " num1 / num2
+				
+		FinSegun
+		
+		Escribir "Do you want to continue (Yes/No)?"
+		
+		Leer answer
+		
+	Mientras Que answer == "Yes"
+	
+	Si answer == "No" Entonces
+		
+		Escribir "The program has end."
+		
+	SiNo
+			
+		Escribir "Please write a valid answer. The program will restart."
+		
+		Repetir
+			
+			Escribir "Write the first number"
+			
+			Leer num1
+			
+			Escribir "Write the second number"
+			
+			Leer num2
+			
+			Escribir "Select the operator between +,-,*, or / "
+			
+			Leer operator
+			
+			Segun operator
+				
+				"+":
+					
+					Escribir "The result is: " num1 + num2
+					
+				"-":
+					
+					Escribir "The result is: " num1 - num2
+					
+				"*":
+					
+					Escribir "The result is: " num1 * num2
+					
+				"/":
+					
+					Escribir "The result is: " num1 / num2
+					
+			FinSegun
+			
+			Escribir "Do you want to continue (Yes/No)?"
+			
+			Leer answer
+			
+		Mientras Que answer == "Yes"
+		
+	Fin Si
+	
+FinAlgoritmo
 
 
