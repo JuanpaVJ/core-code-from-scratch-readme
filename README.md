@@ -622,4 +622,22 @@ Algoritmo calculator_DoWhile
 	
 FinAlgoritmo
 
+***********************************************************************************************************************************************************************
 
+Challenge 1
+Thursday: Multiplication Tables with For
+
+Algoritmo Multiplication_Tables_for
+	
+	Escribir "Select a number to print its multiplication tables"
+	Leer num
+	
+	Para i = 1 Hasta 10 Con Paso 1 Hacer
+		
+		Escribir i " * " num " = " i * num
+		
+	FinPara
+	
+FinAlgoritmo
+
+***********************************************************************************************************************************************************************
