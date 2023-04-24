@@ -727,3 +727,60 @@ FinAlgoritmo
 
 ***********************************************************************************************************************************************************************
 
+Challenge 3
+Thursday: Greeting
+
+Algoritmo greetins
+	
+	continue = "Yes"
+	
+	Definir greetQty Como Entero
+	
+	greetQty = 0
+	
+	Mientras continue == "Yes" Hacer
+		
+		Escribir "Write the current hour:"
+		
+		greetQty = greetQty + 1
+
+		
+		Leer hourAnswer
+		
+		Si hourAnswer <= 12 Entonces
+			
+			Escribir "Good morning."
+			
+		SiNo
+			
+			Si hourAnswer <= 18 Entonces
+				
+				Escribir "Good afternoon."
+				
+			SiNo
+				
+				Escribir "Good night."
+				
+			Fin Si
+			
+		Fin Si
+		
+		Escribir "Do you want to continue? Yes/No"
+		
+		Leer continue
+		
+		Si continue == "No" Entonces
+			
+			Escribir "The quantity of greetings was: " greetQty
+			
+		SiNo
+			
+			Escribir "The current quantity of greetings is: " greetQty 
+			
+		Fin Si
+		
+	Fin Mientras
+
+FinAlgoritmo
+
+***********************************************************************************************************************************************************************
