@@ -827,3 +827,45 @@ Algoritmo sales_commission
 FinAlgoritmo
 
 ***********************************************************************************************************************************************************************
+
+Challenge 2
+Monday: Even or Odd
+
+Algoritmo even_odd
+	
+	Repetir
+		
+		Escribir "Write a number between 1 and 50."
+		
+		Leer selected_num
+		
+		Si selected_num < 1 | selected_num > 50 Entonces
+			
+			Escribir  "Invalid number."
+			
+		FinSi
+		
+	Mientras Que selected_num < 1 | selected_num > 50
+	
+	Si selected_num % 2 == 0
+		
+		Para i = 2 Hasta selected_num Con Paso 2 Hacer
+			
+			Escribir i
+			
+		FinPara
+		
+	SiNo
+			
+		Para z = 1 Hasta selected_num Con Paso 2 Hacer
+			
+			Escribir z
+			
+		FinPara
+		
+	FinSi
+		
+FinAlgoritmo
+
+***********************************************************************************************************************************************************************
+
