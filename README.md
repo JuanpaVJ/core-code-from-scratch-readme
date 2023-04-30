@@ -784,3 +784,46 @@ Algoritmo greetins
 FinAlgoritmo
 
 ***********************************************************************************************************************************************************************
+
+Week 4 Challenges
+
+***********************************************************************************************************************************************************************
+
+Challenge 1
+Monday: Average sales and commission
+
+Algoritmo sales_commission
+	
+	Escribir "Enter the amount of sales that where made."
+	
+	Leer total_sales
+	
+	bonus = 0
+	
+	Para num_sales = 1 hasta total_sales Con Paso 1 Hacer
+		
+		Escribir "Write the value of the sale " num_sales
+		
+		Leer value_sale
+		
+		bonus = value_sale + bonus
+		
+	FinPara
+	
+	average = bonus / total_sales
+	
+	Escribir "The average of the products that where sold is: " average
+	
+	Si total_sales > 5 Entonces
+		
+		Escribir "The bonus is going to be: " bonus * 0.15
+		
+	SiNo
+		
+		Escribir "The bonus is going to be: " bonus * 0.10
+		
+	Fin Si
+	
+FinAlgoritmo
+
+***********************************************************************************************************************************************************************
