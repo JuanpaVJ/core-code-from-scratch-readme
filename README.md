@@ -869,3 +869,27 @@ FinAlgoritmo
 
 ***********************************************************************************************************************************************************************
 
+Challenge 1
+Tuesday: Full name
+
+Algoritmo fullname
+	
+	Escribir "Write your first name."
+	
+	Leer first_name
+	
+	Escribir "Write your last name."
+	
+	Leer last_name
+	
+	final_first_name = Mayusculas(Subcadena(first_name, 0,0)) + Minusculas(Subcadena(first_name, 1, Longitud (first_name) -1))
+	
+	final_last_name = Mayusculas(Subcadena(last_name, 0,0)) + Minusculas(Subcadena(last_name, 1, Longitud (last_name) -1))
+	
+	Escribir  final_first_name + " " + final_last_name
+
+FinAlgoritmo
+
+***********************************************************************************************************************************************************************
+
+
