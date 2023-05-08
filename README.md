@@ -892,4 +892,34 @@ FinAlgoritmo
 
 ***********************************************************************************************************************************************************************
 
+Challenge 2
+Tuesday: Throw dice
+
+Algoritmo Throw_dice
+	
+	Para i = 1 Hasta 10 Con Paso 1 Hacer
+		
+		dice_1 = Aleatorio(1,6)
+		
+		dice_2 = Aleatorio(1,6)
+		
+		Si dice_1 == dice_2 Entonces
+			
+			Escribir dice_1 " " dice_2 " The dice are the same."
+			
+		SiNo
+			
+			Escribir dice_1 " " dice_2
+			
+		Fin Si
+		
+	FinPara
+	
+FinAlgoritmo
+
+***********************************************************************************************************************************************************************
+
+Challenge 1
+Wednesday: Distance to zero
+
 
