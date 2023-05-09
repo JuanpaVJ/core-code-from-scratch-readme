@@ -922,4 +922,59 @@ FinAlgoritmo
 Challenge 1
 Wednesday: Distance to zero
 
+Algoritmo distanceTo0
+
+    Definir value1, value2, value3, value4, value5, higher Como Entero
+	
+    Escribir "Please enter the first value:"
+    
+    Leer value1
+    
+    Escribir "Please enter the second value:"
+    
+    Leer value2
+    
+    Escribir "Please enter the third value:"
+    
+    Leer value3
+    
+    Escribir "Please enter the forth value:"
+    
+    Leer value4
+    
+    Escribir "Please enter the fifth value:"
+    
+    Leer value5
+	
+    higher <- value1
+    
+    Si value2 > higher Entonces
+    
+        higher <- value2
+	
+    FinSi
+    
+    Si value3 > higher Entonces
+    
+        higher <- value3
+	
+    FinSi
+    
+    Si value4 > higher Entonces
+    
+        higher <- value4
+	
+    FinSi
+    
+    Si value5 > higher Entonces
+    
+        higher <- value5
+	
+    FinSi
+	
+    Escribir "The number that is farther from 0 is: " higher
+	
+FinAlgoritmo
+
+***********************************************************************************************************************************************************************
 
