@@ -978,3 +978,49 @@ FinAlgoritmo
 
 ***********************************************************************************************************************************************************************
 
+Challenge 2 Wednesday
+Toss Coin
+
+Proceso ganador
+    Definir nombre1, nombre2 Como Cadena
+    Definir valor1, valor2 Como Real
+    Definir ganador Como Cadena
+
+    Escribir "Ingrese el nombre del primer jugador:"
+    Leer nombre1
+    Escribir "Ingrese el valor del primer jugador:"
+    Leer valor1
+
+    Escribir "Ingrese el nombre del segundo jugador:"
+    Leer nombre2
+    Escribir "Ingrese el valor del segundo jugador:"
+    Leer valor2
+
+    Si valor1 <= 0 Entonces
+        ganador <- nombre2
+    Sino Si valor2 <= 0 Entonces
+        ganador <- nombre1
+    Sino
+        Si aleatorio() = 0 Entonces
+            ganador <- nombre2
+        Sino
+            ganador <- nombre1
+        FinSi
+    FinSi
+
+    Si ganador = nombre1 Entonces
+        Escribir "El ganador es ", ConvertirAMayusculas(nombre1)
+    Sino Si ganador = nombre2 Entonces
+        Escribir "El ganador es ", ConvertirAMayusculas(nombre2)
+    Sino
+        Escribir "Juego cancelado"
+    FinSi
+
+    Si ganador = nombre1 Entonces
+        Escribir "Gané ", valor1
+    Sino Si ganador = nombre2 Entonces
+        Escribir "Gané ", valor2
+    FinSi
+FinProceso
+
+***********************************************************************************************************************************************************************
