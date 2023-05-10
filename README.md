@@ -981,46 +981,84 @@ FinAlgoritmo
 Challenge 2 Wednesday
 Toss Coin
 
-Proceso ganador
-    Definir nombre1, nombre2 Como Cadena
-    Definir valor1, valor2 Como Real
-    Definir ganador Como Cadena
+Algoritmo  TossCoin
 
+    Definir name1, name2 Como Cadena
+	
+    Definir value1, value2 Como Real
+	
+    Definir winner Como Cadena
+	
     Escribir "Ingrese el nombre del primer jugador:"
-    Leer nombre1
+	
+    Leer name1
+	
     Escribir "Ingrese el valor del primer jugador:"
-    Leer valor1
-
+	
+    Leer value1
+	
     Escribir "Ingrese el nombre del segundo jugador:"
-    Leer nombre2
+	
+    Leer name2
+	
     Escribir "Ingrese el valor del segundo jugador:"
-    Leer valor2
-
-    Si valor1 <= 0 Entonces
-        ganador <- nombre2
-    Sino Si valor2 <= 0 Entonces
-        ganador <- nombre1
-    Sino
-        Si aleatorio() = 0 Entonces
-            ganador <- nombre2
-        Sino
-            ganador <- nombre1
-        FinSi
-    FinSi
-
-    Si ganador = nombre1 Entonces
-        Escribir "El ganador es ", ConvertirAMayusculas(nombre1)
-    Sino Si ganador = nombre2 Entonces
-        Escribir "El ganador es ", ConvertirAMayusculas(nombre2)
-    Sino
-        Escribir "Juego cancelado"
-    FinSi
-
-    Si ganador = nombre1 Entonces
-        Escribir "Gané ", valor1
-    Sino Si ganador = nombre2 Entonces
-        Escribir "Gané ", valor2
-    FinSi
-FinProceso
-
+	
+    Leer value2
+	
+    Si value1 <= 0 Entonces
+		
+        winner <- name2
+		
+    Sino 
+		
+		Si value2 <= 0 Entonces
+			
+			winner <- name1
+			
+		Sino
+			
+			Si aleatorio(1,2) = 0 Entonces
+				
+				winner <- name2
+				
+			Sino
+				
+				winner <- name1
+				
+			FinSi
+			
+		FinSi
+		
+	FinSi
+	
+		
+	Si winner = name1 Entonces
+		
+		Escribir "The winner is ", Mayusculas(name1)
+		
+	Sino Si winner = name2 Entonces
+			
+			Escribir "The winner is ", Mayusculas(name2)
+			
+		Sino
+			
+			Escribir "Game cancelled"
+			
+			FinSi
+			
+			Si winner = name1 Entonces
+				
+				Escribir "I won ", value1
+				
+			Sino Si winner = name2 Entonces
+					
+					Escribir "I won ", value2
+					
+				FinSi
+				
+			FinSi
+			
+		FinSi
+		
+FinAlgoritmo
 ***********************************************************************************************************************************************************************
