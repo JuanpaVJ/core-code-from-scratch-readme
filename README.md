@@ -1062,3 +1062,67 @@ Algoritmo  TossCoin
 		
 FinAlgoritmo
 ***********************************************************************************************************************************************************************
+
+Challenge 1 Thursday
+Total Price
+
+Funcion value <- totalPrice (price, vat)
+	
+	Definir value Como Real;
+	
+	SI price > 3000 Entonces
+		
+		value = (price + (price/100*vat)) / 100*90
+		
+		SiNo
+		
+			value = (price + (price/100*vat))
+		
+	FinSi
+	
+Fin Funcion
+
+Algoritmo totalPriceExercise
+	
+	Imprimir TotalPrice(5000,22)
+	
+FinAlgoritmo
+
+***********************************************************************************************************************************************************************
+
+Challenge 2 Thursday
+Reverse Direction and Size
+
+Funcion result <- reverseWord (string)
+	
+	Definir result Como Caracter;
+	
+	result = "";
+	
+	Para count = Longitud(string) Hasta 0 Con Paso -1 Hacer
+		
+		letter = Subcadena(string,count,count);
+		
+		SI letter = Mayusculas(letter) Entonces
+			
+			letter = Minusculas(letter)
+			
+		SiNo
+			
+			letter = Mayusculas(letter)
+			
+		FinSi
+		
+		result = Concatenar(result, letter)
+		
+	FinPara
+	
+Fin Funcion
+
+Algoritmo reverseDirection
+	
+	Escribir reverseWord("First reverse word")
+	
+FinAlgoritmo
+
+***********************************************************************************************************************************************************************
